@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+ <!--  <listeners>
+		<listener class-name="training.PageTest.Listeners" />
+	</listeners>-->
+
+	<test name="verifyforgotlink">
+		<classes>
+			<class name="training.PageTest.ForgotPwdTest" />
+		</classes>
+	</test>
+
+	<test name="verifyLogout">
+		<classes>
+			<class name="training.PageTest.HomeTest" />
+		</classes>
+	</test>
+
+	<test name="launchBrowser">
+		<classes>
+			<class name="training.PageTest.BaseTest" />
+		</classes>
+	</test>
+
+	<test name="verifyLogin">
+		<classes>
+			<class name="training.PageTest.LoginTest" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
